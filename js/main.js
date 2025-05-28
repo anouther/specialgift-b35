@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('happy mensiversary').split('');
+        const titles = ('Selamat tanggal 30 yang ke-7, sayangku!').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = " Thank you for coming and making everything better, let's continue to love each other and be happy together.";
+            subtitle.innerText = " I am blessed to be here with you for this long, for all the ups and downs we've been through, and for all the most lovely moments of my life. May our youth bloom as beautifully as these flowers; spreading our wings of petals while the world stare in awe. Let me love you for another second, let me love you for another minute, and let me love you forever.";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
